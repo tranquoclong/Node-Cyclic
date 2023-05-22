@@ -1,7 +1,7 @@
 const dotenv = require("dotenv");
 const jwt = require("jsonwebtoken");
 const User = require("../models/user");
-const { expressJwt } = require("express-jwt");
+const expressJwt = require("express-jwt");
 const _ = require("lodash");
 const { OAuth2Client } = require("google-auth-library");
 const { sendEmail } = require("../helpers");
